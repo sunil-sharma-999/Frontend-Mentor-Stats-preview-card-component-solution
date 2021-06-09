@@ -1,0 +1,115 @@
+/* body */
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Lexend deca';
+  color: white;
+}
+
+/* card */
+.card {
+  margin: 6rem 1rem 0 1rem;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 240px 1fr;
+  grid-template-areas: 'img' 'text';
+  box-shadow: 0 20px 20px -20px hsl(244, 38%, 16%);
+}
+/* img */
+.img {
+  grid-area: img;
+  background-blend-mode: multiply;
+  filter: opacity(60%) contrast(75%) brightness(130%) saturate(150%);
+  background-color: hsl(277, 93%, 71%);
+  background-image: url(./images/image-header-mobile.jpg);
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  background-repeat: no-repeat;
+}
+
+.textwrap {
+  grid-area: text;
+}
+/* header */
+.header {
+  font-size: 0.9rem;
+  grid-area: header;
+  padding: 1rem 1rem;
+  line-height: 1.9rem;
+}
+.header span {
+  color: hsl(277, 64%, 61%);
+}
+.header p {
+  font-size: 15px;
+  font-family: 'inter';
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 1.5rem 1.2rem 0 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* bottom */
+ul {
+  font-weight: 700;
+  margin: 2rem 0 0 0;
+  padding: 0 7rem;
+  font-size: 1.5rem;
+  grid-area: ul;
+  list-style-type: none;
+}
+ul span {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+}
+li {
+  margin: 1.3rem;
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 0;
+    position: relative;
+  }
+  .img {
+    background-image: url(./images/image-header-desktop.jpg);
+  }
+  /* card */
+  .card {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-15%, 15%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'text img';
+  }
+  /* img */
+  .img {
+    border-radius: 0 10px 10px 0;
+  }
+  /* text */
+  .textwrap {
+    padding: 1.5rem 2rem;
+    text-align: left;
+  }
+  h1 {
+    line-height: 2.8rem;
+    font-size: 2.2rem;
+  }
+  .header p {
+    margin: 0;
+    padding: 0 5rem 0 0;
+  }
+  ul {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 3rem 2.5rem 0 1rem;
+    padding: 0;
+  }
+  li {
+    margin: 0 2.5rem 0 0;
+  }
+}
