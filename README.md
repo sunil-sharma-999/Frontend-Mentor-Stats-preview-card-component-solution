@@ -1,4 +1,4 @@
-# Frontend Mentor - Stats preview card component solution
+# Stats preview card component solution
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stats preview card component solution - GitHub](https://github.com/sunil-sharma-999/Frontend-Mentor-Stats-preview-card-component-solution)
-- Live Site URL: [Stats preview card component](https://sunil-sharma-999.github.io/Frontend-Mentor-Stats-preview-card-component-solution)
+- Solution URL: [Stats preview card component solution - GitHub](https://github.com/sunil-sharma-999/Stats-preview-card-component-solution)
+- Live Site URL: [Stats preview card component](https://sunil-sharma-999.github.io/Stats-preview-card-component-solution)
 
 ## My process
 
